@@ -27,10 +27,8 @@ contract TokenWhaleChallenge {
         // msg.sender here is called from transfer from 
         // unchecked block mimics solc 0.4.xx
         unchecked{
-
             balanceOf[msg.sender] -= value;
             balanceOf[to] += value;
-
         }
         emit Transfer(msg.sender, to, value);
     }

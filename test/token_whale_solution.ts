@@ -25,5 +25,6 @@ describe("Solutions: Dex", () => {
         const factory = await ethers.getContractFactory("Dex");
         const tokenFactory = await ethers.getContractFactory("SwappableToken");
         contract = await factory.deploy(); 
+        token0 = await tokenFactory.deploy(contract.getAddress(), "token0", "T0"
     }))
 })
