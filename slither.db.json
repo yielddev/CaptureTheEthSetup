@@ -1,0 +1,1 @@
+[{"elements": [], "description": "solc-0.8.0 is not recommended for deployment\n", "markdown": "solc-0.8.0 is not recommended for deployment\n", "first_markdown_element": "", "id": "c298e4718eba1e635e63e4c3206d561ac1974eaef1a3bba154ff9c56bcf6282a", "check": "solc-version", "impact": "Informational", "confidence": "High"}]
